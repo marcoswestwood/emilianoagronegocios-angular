@@ -1,0 +1,110 @@
+/* -----------menu----------- */
+
+.menu-bar{
+    width: 100%;
+}
+
+.itens-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.menu-nav{
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-nav li{
+    list-style: none;
+}
+
+.menu-nav a{
+    color: gray;
+    
+}
+
+.menu-nav a:hover, .menu-nav a:focus{
+    color: black;
+    text-decoration: none;
+    border-bottom: 2px solid black;
+}
+
+
+
+/* -----------menu hamburger----------- */
+
+.mobile-menu-icon{
+    display: none;
+}
+
+.overlay{
+    width: 0;
+    height: 100%;
+    background-color: rgba(0,0,0,0.9);
+    z-index: 9;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    transition: all 0.5s;
+}
+
+.overlay-content{
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay a{
+    padding: 15px;
+    text-decoration: none;
+    color: #818181;
+    display: block;
+    font-size: 20px;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus{
+    color: white;
+    text-decoration: none;
+}
+
+.overlay .closebtn{
+    position: absolute;
+    top: 30px;
+    right: 45px;
+}
+
+/* -----------fim do menu hamburger----------- */
+
+
+@media screen and (max-width: 950px) {
+    .logo img{width: 140px;}
+    .menu-nav{width: 350px;}
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .logo img{width: 120px;}
+    .menu-nav{display: none;}
+    .mobile-menu-icon {display: block;}
+    .mobile-menu-icon button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+}
+
+
+@media screen and (max-width: 500px) {
+    .logo img{width: 90px;}
+    .overlay a{font-size: 14px;}
+}

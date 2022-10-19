@@ -1,0 +1,24 @@
+section.politica-empresa{
+    background-image: url(../../../assets/img/background-politca-empresa.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.politica-empresa h3{
+    padding-top: 50px;
+    color: white;
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.politica-empresa p{
+    color: white;
+    text-align: justify;
+    line-height: 30px;  
+    padding-bottom: 50px;
+    margin-bottom: 0;
+}
