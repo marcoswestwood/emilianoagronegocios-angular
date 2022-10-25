@@ -12,17 +12,15 @@ section.parceiros-slider{
     font-weight: bold;
 }
 
-section.parceiros-slider img{
-    max-width: 100%;
-    filter: grayscale(1);
-}
-
 .slider-container{
     align-items: center;
 }
 
 .slider-container img{
     padding: 0 45px;
+	width: 300px;
+	filter: grayscale(1);
+	max-width: 100%;
 }
 
 

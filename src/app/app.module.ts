@@ -11,6 +11,7 @@ import { BannerComponent } from './components/banner/banner.component';
 import { QuemsomosComponent } from './components/quemsomos/quemsomos.component';
 import { PoliticaComponent } from './components/politica/politica.component';
 import { ParceirosComponent } from './components/parceiros/parceiros.component';
+import { SegmentosComponent } from './components/segmentos/segmentos.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { ParceirosComponent } from './components/parceiros/parceiros.component';
     BannerComponent,
     QuemsomosComponent,
     PoliticaComponent,
-    ParceirosComponent
+    ParceirosComponent,
+    SegmentosComponent
   ],
   imports: [
     BrowserModule,
